@@ -1,0 +1,54 @@
+# =========================
+# Dataset
+# =========================
+MAMA_MIA_100/
+MAMA_MIA_raw/
+
+# =========================
+# Preprocessed data
+# =========================
+*_preprocessed_*/
+*.pt
+*.pth
+*.nii
+*.nii.gz
+
+# =========================
+# Training outputs
+# =========================
+training_output/
+training_output_no_qnn/
+results*/qualitative/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter / VS Code
+# =========================
+.ipynb_checkpoints/
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / local files
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# Dataset extraction leftovers
+# =========================
+central_directory.bin
+part001_tail.bin
