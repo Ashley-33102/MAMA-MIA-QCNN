@@ -40,17 +40,6 @@ The clearest difference between the two configurations was **recall**: the QNN c
 
 Full per-case and per-cohort results are available in `results/metrics/`, while the complete methodology, analysis, and limitations are provided in `docs/report.docx`.
 
-<p align="center">
-  <img src="results/figures/qnn_dice_distribution.png" width="45%">
-  <img src="results/figures/qnn_validation_dice.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="results/figures/qnn_best_case.png" width="90%">
-  <br>
-  <sub>Best test case (ISPY1_1010, Dice = 0.854): MRI, ground truth, prediction, and overlay.</sub>
-</p>
-
 ---
 
 ## Dataset
